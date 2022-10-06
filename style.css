@@ -1,10 +1,43 @@
 * {
     font-family: "Roboto", sans-serif;
+    border: 1px solid gold;
 }
 
 img {
     object-fit: cover;
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+}
+
+.header-container {
+    
+}
+
+.header-link-container {
+    
+}
+
+.header-main-container {
+    
+}
+
+.header-text-container {
+
+}
+
+
+
 
