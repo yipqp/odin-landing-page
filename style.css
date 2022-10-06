@@ -1,6 +1,6 @@
 * {
     font-family: "Roboto", sans-serif;
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
 }
 
 img {
@@ -12,18 +12,70 @@ img {
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 ul {
     list-style: none;
 }
 
+.title, .hero-main, .button-sign-up, .sign-up-call {
+    color: #F9FAF8;
+}
+
+.header-links, .hero-subtext, .subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.card-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:bolder;
+}
+
+.quote-author {
+    color:#1F2937;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+button, .sign-up-section {
+    background-color: #3882F6;
+
+}
+
+button {
+    padding: 0;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
 .container {
     display: flex;
 }
 
+.title, .sign-up-call {
+    font-size: 24px;
+}
+
 .header-container {
-    
+    flex-direction: column;
+    background-color: #1F2937;
+   
 }
 
 .header-link-container {
@@ -38,6 +90,8 @@ ul {
 
 }
 
-
+.quote-section {
+    background-color: #E5E7Eb;
+}
 
 
