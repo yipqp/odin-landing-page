@@ -127,7 +127,7 @@ a:hover {
 
 .header-container {
     flex-direction: column;
-    padding: 0 125px 85px;
+    padding: 0 140px 85px;
    
 }
 
@@ -143,7 +143,7 @@ a:hover {
 }
 
 .header-main-container {
-    margin-top: 70px;
+    margin-top: 80px;
     gap: 25px;   
     flex: auto;
     justify-content: space-between;    
@@ -191,7 +191,7 @@ a:hover {
     background-color: #E5E7Eb;
     justify-content: center;
     align-items: center;
-    padding: 125px;
+    padding: 100px;
 
 }
 
@@ -208,7 +208,7 @@ a:hover {
 .sign-up-section {
     justify-content: space-between;
     align-items: center;
-    margin: 80px 120px;
+    margin: 100px 160px;
     padding: 50px;
     border-radius: 8px;
 }
