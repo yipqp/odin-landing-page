@@ -1,6 +1,6 @@
-* {
+html {
     font-family: "Roboto", sans-serif;
-    /* border: 1px solid gold; */
+    scroll-behavior: smooth;
 }
 
 img {
@@ -86,8 +86,22 @@ button {
     color:#F9FAF8;
     font-size: 18px;
     font-weight: bold;
-    
+    transition-duration: 0.4s;
 }
+
+button:hover {
+    background-color: #fdfdfc;
+    color:#3882F6;
+}
+
+a {
+    transition-duration: 0.1s;
+}
+
+a:hover {
+    color: #999b98;
+}
+
 
 .hero-main {
     font-size: 48px;
