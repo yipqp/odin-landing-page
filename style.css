@@ -40,7 +40,7 @@ ul {
     color: #F9FAF8;
 }
 
-.header-links, .hero-subtext {
+.header-links, .hero-subtext, .sign-up-subtext, .footer {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -86,7 +86,6 @@ button {
     color:#F9FAF8;
     font-size: 18px;
     font-weight: bold;
-
     
 }
 
@@ -101,16 +100,20 @@ button {
 
 .title, .sign-up-call {
     font-size: 24px;
+    font-weight: bolder;
 }
 
 .title {
     font-weight: bolder;
 }
 
+.header-container, .footer {
+    background-color: #1F2937;
+}
+
 .header-container {
     flex-direction: column;
-    background-color: #1F2937;
-    padding: 0 125px 85px
+    padding: 0 125px 85px;
    
 }
 
@@ -187,5 +190,39 @@ button {
 .quote-author {
     align-self: flex-end;
 }
+
+.sign-up-section {
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 120px;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.sign-up-text-container {
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.sign-up-subtext {
+    size: 18px;
+}
+
+#button-sign-up {
+    border-style: solid;
+    border-color: #f9f9f9;
+    max-height: 45px;
+
+}
+
+.footer {
+    margin: 0px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
 
 
