@@ -155,6 +155,7 @@ button {
     text-align: center;
     gap: 80px;
     margin-bottom: 126px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -169,5 +170,22 @@ button {
 }
 
 .quote-section {
+    flex-flow: column wrap;
     background-color: #E5E7Eb;
+    justify-content: center;
+    align-items: center;
+    padding: 125px;
+
 }
+
+.quote-container {
+    flex-flow: column wrap;
+    gap: 25px;
+    padding: 50px;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+
